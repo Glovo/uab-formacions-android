@@ -1,3 +1,5 @@
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
 pluginManagement {
     repositories {
         gradlePluginPortal()
@@ -19,4 +21,7 @@ plugins {
 
 rootProject.name = "uab-formacions-android"
 
-include("app")
+include(
+    "app",
+    "data",
+)
