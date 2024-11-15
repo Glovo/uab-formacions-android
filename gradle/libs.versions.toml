@@ -1,0 +1,10 @@
+[versions]
+android-plugin = "8.7.2"
+android-compileSDK = "31"
+java = "17"
+kotlin = "2.0.21"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "android-plugin" }
+android-library = { id = "com.android.application", version.ref = "android-plugin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
