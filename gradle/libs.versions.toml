@@ -2,7 +2,7 @@
 android-compileSDK = "34"
 android-minSDK = "26"
 android-plugin = "8.7.2"
-hilt = "2.52"
+hilt = "2.53"
 java = "17"
 kotlin = "2.0.21"
 coreKtx = "1.15.0"
